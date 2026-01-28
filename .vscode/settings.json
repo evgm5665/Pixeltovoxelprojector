@@ -1,0 +1,12 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/usl/modifly/PixtoVoxProject/build",
+            "binaryPath": "/home/usl/modifly/PixtoVoxProject/build/ray_voxel",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "complex": "cpp"
+    }
+}

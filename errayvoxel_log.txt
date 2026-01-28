@@ -1,0 +1,6 @@
+ERROR: Cannot open motionimages/metadata.json
+No frames loaded.
+ERROR: Cannot open motionimages/metadata.json
+No frames loaded.
+ERROR: Cannot open motionimages/metadata.json
+No frames loaded.
