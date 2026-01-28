@@ -9,7 +9,7 @@ cd /home/usl/modifly/PixtoVoxProject
 
 
 
-#STEP one picam
+#STEP one picam capture
 
    python3 PiCameraCapture.py > -n        #runs program without outputing output from program into terminal
 

@@ -6,3 +6,7 @@ Failed to load image: motionimages/frame_000.png
 Skipping frame due to load error.
 Failed to load image: motionimages/frame_001.png
 Skipping frame due to load error.
+Failed to load image: motionimages/frame_000.png
+Skipping frame due to load error.
+Failed to load image: motionimages/frame_001.png
+Skipping frame due to load error.
