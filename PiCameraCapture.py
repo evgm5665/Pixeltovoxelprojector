@@ -19,7 +19,6 @@ folder = "/home/usl/modifly/PixtoVoxProject/motionimages"  #---motion images fol
 num = len(os.listdir(folder))                              #--- counts number of items in MI folder
 folder_conts = os.listdir(folder)                          #--- returns a list of the items in MI folder
 
-#-----End of Varaibles-------#
 
 
 class Functions:
