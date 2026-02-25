@@ -1,4 +1,17 @@
 [
-  { "camera_index": 0, "frame_index": 0, "yaw": 0.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "frame_000.png", "camera_position": [0.0, 0.0, 0.0] },
-  { "camera_index": 0, "frame_index": 1, "yaw": 0.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "frame_001.png", "camera_position": [0.0, 0.0, 0.0] }
+  { "camera_index": 0, "frame_index": 0, "yaw": 180.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam2_frame_0.png", "camera_position": [603.0, 0.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 180.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam2_frame_1.png", "camera_position": [603.0, 0.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 180.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam2_frame_2.png", "camera_position": [603.0, 0.0, 0.0] },
+
+  { "camera_index": 0, "frame_index": 0, "yaw": 270.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam1_frame_0.png", "camera_position": [0.0, 603.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 270.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam1_frame_1.png", "camera_position": [0.0, 603.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 270.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam1_frame_2.png", "camera_position": [0.0, 603.0, 0.0] },
+
+  { "camera_index": 0, "frame_index": 0, "yaw": 0.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam4_frame_0.png", "camera_position": [-603.0, 0.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 0.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam4_frame_1.png", "camera_position": [-603.0, 0.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 0.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam4_frame_2.png", "camera_position": [-603.0, 0.0, 0.0] },
+
+  { "camera_index": 0, "frame_index": 0, "yaw": 90.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam3_frame_0.png", "camera_position": [0.0, -603.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 90.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam3_frame_1.png", "camera_position": [0.0, -603.0, 0.0] },
+  { "camera_index": 0, "frame_index": 0, "yaw": 90.0, "pitch": 0.0, "roll": 0.0, "fov_degrees": 60.0, "image_file": "cam3_frame_2.png", "camera_position": [0.0, -603.0, 0.0] }
 ]

@@ -1,25 +1,12 @@
-"""
-voxelmotionviewer.py  (PyVista Stable Version)
-
-Fixes:
-- Handles millions of voxels safely (downsampling)
-- Uses fast point rendering (no spheres)
-- Forces camera reset
-- Saves screenshot history
-"""
-
-#changes have been made in this file- working on documenting them
-
 import os
 import re
 import math
 import numpy as np
 import pyvista as pv
+import matplotlib.pyplot as plt
+import matplotlib.colors
 
 
-# -----------------------------------------------------------
-# LOAD VOXEL GRID
-# -----------------------------------------------------------
 def load_voxel_grid(filename):
     with open(filename, "rb") as f:
         N = np.frombuffer(f.read(4), dtype=np.int32)[0]
@@ -30,9 +17,9 @@ def load_voxel_grid(filename):
     return voxel_grid, voxel_size
 
 
-# -----------------------------------------------------------
-# EXTRACT BRIGHT VOXELS
-# -----------------------------------------------------------
+
+
+# extract bright pixels
 def extract_top_percentile_z_up(
     voxel_grid,
     voxel_size,
@@ -67,50 +54,6 @@ def extract_top_percentile_z_up(
     return points.astype(np.float32), intensities.astype(np.float32)
 
 
-# -----------------------------------------------------------
-# ROTATION (optional)
-# -----------------------------------------------------------
-def rotation_matrix_xyz(rx_deg, ry_deg, rz_deg):
-    rx = math.radians(rx_deg)
-    ry = math.radians(ry_deg)
-    rz = math.radians(rz_deg)
-
-    cx, sx = math.cos(rx), math.sin(rx)
-    cy, sy = math.cos(ry), math.sin(ry)
-    cz, sz = math.cos(rz), math.sin(rz)
-
-    Rx = np.array([[1, 0, 0],
-                   [0, cx, -sx],
-                   [0, sx, cx]], dtype=np.float32)
-
-    Ry = np.array([[cy, 0, sy],
-                   [0, 1, 0],
-                   [-sy, 0, cy]], dtype=np.float32)
-
-    Rz = np.array([[cz, -sz, 0],
-                   [sz, cz, 0],
-                   [0, 0, 1]], dtype=np.float32)
-
-    return Rz @ Ry @ Rx
-
-
-# -----------------------------------------------------------
-# SCREENSHOT INDEXING
-# -----------------------------------------------------------
-def get_next_image_index(folder):
-    if not os.path.exists(folder):
-        return 1
-    max_index = 0
-    for fname in os.listdir(folder):
-        if fname.startswith("voxel_") and fname.endswith(".png"):
-            idx = int(fname.replace("voxel_", "").replace(".png", ""))
-            max_index = max(max_index, idx)
-    return max_index + 1
-
-
-# -----------------------------------------------------------
-# MAIN
-# -----------------------------------------------------------
 def main():
     voxel_grid, vox_size = load_voxel_grid("output_voxel_grid.bin")
 
@@ -133,9 +76,9 @@ def main():
     if points is None:
         return
 
-    # -------------------------------------------------------
-    # OPTIONAL ROTATION (keep off for debugging)
-    # -------------------------------------------------------
+    # 
+    # OPTIONAL ROTATION 
+    # 
     R = rotation_matrix_xyz(0, 0, 0)
     points = points @ R.T
 
@@ -143,9 +86,9 @@ def main():
     print("Points min:", points.min(axis=0))
     print("Points max:", points.max(axis=0))
 
-    # -------------------------------------------------------
+  
     # DOWN SAMPLE FOR RENDERING
-    # -------------------------------------------------------
+    
     max_points = 200_000
     if points.shape[0] > max_points:
         idx = np.random.choice(points.shape[0], max_points, replace=False)

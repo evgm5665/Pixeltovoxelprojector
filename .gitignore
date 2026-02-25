@@ -1,3 +1,6 @@
 build/**
 .venv
 voxel_grid.bin
+motionimages
+screenshots
+output_voxel_grid.bin
