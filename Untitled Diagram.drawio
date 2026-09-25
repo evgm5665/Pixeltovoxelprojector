@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="r7q5QPpA_S4XaajcFJKJ">
+    <mxGraphModel dx="1927" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-11" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Launch Web&amp;nbsp;&lt;div&gt;Interface&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-12" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Display User Agreement" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-15" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-16" connectable="0" parent="F54SnDvX8kGbyWmT1fSH-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.3263" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-23" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-24" connectable="0" parent="F54SnDvX8kGbyWmT1fSH-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0182" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="User accepts agreement?" vertex="1">
+          <mxGeometry height="80" width="120" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-17" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Deny access and close system" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="-20" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-18" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Discover Pucks on network (Ethernet switch)" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-22" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-25" connectable="0" parent="F54SnDvX8kGbyWmT1fSH-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.04" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-26" edge="1" parent="1" source="F54SnDvX8kGbyWmT1fSH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;" target="F54SnDvX8kGbyWmT1fSH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-27" connectable="0" parent="F54SnDvX8kGbyWmT1fSH-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0286" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="All required Pucks connected and responding?" vertex="1">
+          <mxGeometry height="100" width="150" x="145" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Display connection error/ missing Pucks" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="F54SnDvX8kGbyWmT1fSH-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Display Puck status(ID&#39;s, connection, camera status)" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
